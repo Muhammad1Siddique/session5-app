@@ -1,10 +1,10 @@
 import React from 'react'
 import Child from './Child'
-const parent = () =>{
+const Parents = () =>{
 
     return(
         <child />
     ) 
 }
 
-export default Parent;
+export default Parents;
