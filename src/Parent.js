@@ -3,7 +3,7 @@ import Child from './Child.js'
 function Parent(){
 
     return(
-        <child />
+        <Child />
     ) 
 }
 
