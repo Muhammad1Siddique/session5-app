@@ -1,15 +1,15 @@
 import React from 'react'
 import './App.css';
-import CounterContext from './CounterContext';
+import counterContext from './counterContext';
 import Parent from './Parent.js'
 
 function App() {
   return (
-    <CounterContext.provider value={10}>
+    <counterContext.provider value={10}>
       <div>
         <Parent name="Mr. Siddique" />  
       </div>
-    </CounterContext.provider>
+    </counterContext.provider>
     
   );
 }
