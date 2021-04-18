@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import Parents from './Parent'
+import Parent from './Parent.js'
 
 function App() {
   return (
