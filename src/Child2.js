@@ -7,7 +7,7 @@ const Child2 =() =>{
         <div>
             <h1>Second Child</h1>
             <h4>State value is: {state}</h4>
-            <button onClick={dispatch('INCREMENT')}>Increment Reducer</button>
+            <button onClick={()=>dispatch('INCREMENT')}>Increment Reducer</button>
         </div>
     )
 }
