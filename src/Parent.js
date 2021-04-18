@@ -3,7 +3,11 @@ import Child from './Child.js'
 const Parent =(props) =>{
 
     return(
-        <Child name = {props.name}/>
+        <div>
+            <Child name = {props.name}/>
+            <Child2 />
+        </div>
+        
     ) 
 }
 
