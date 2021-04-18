@@ -5,11 +5,11 @@ import Parent from './Parent.js'
 
 function App() {
   return (
-    <counterContext.provider value={10}>
+    <counterContext.Provider value={10}>
       <div>
         <Parent name="Mr. Siddique" />  
       </div>
-    </counterContext.provider>
+    </counterContext.Provider>
     
   );
 }
