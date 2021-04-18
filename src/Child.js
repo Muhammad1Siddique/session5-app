@@ -3,11 +3,11 @@ import counterContext from './counterContext'
 
 const Child =(props) =>{ 
     let counterValue = useContext(counterContext); 
-    console.log(counterValue);
     return(
         <div>
             <h3>This is first child</h3>
             <h2>My name is {props.name}</h2>
+            <h1>Counter Value is {counterValue}</h1>
 
         </div>
 
