@@ -42,4 +42,4 @@ jobs:
         run: sudo npm install -g surge
         
       - name: deploy on surge
-        run: surge ./build http://bcsession5ld.surge.sh --token ${{ secrets.BC5_TOKEN }}
+        run: surge ./build http://bcsession5ld1.surge.sh/ --token ${{ secrets.BC5_TOKEN }}
