@@ -1,6 +1,6 @@
 import React from 'react'
 import Child from './Child.js'
-function Parent(){
+const Parent =() =>{
 
     return(
         <Child />

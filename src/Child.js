@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Child(){  
+const Child =() =>{  
     return(
         <div>
             <h3>This is first child</h3>
