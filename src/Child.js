@@ -5,7 +5,7 @@ const Child = () =>{
     
     return(
         <div>
-            <h3>Welcome Child Node</h3>
+            <h3>This is first child</h3>
         </div>
 
     )
